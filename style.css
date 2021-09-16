@@ -110,9 +110,11 @@ body {
 }
 
 .attribution {
-  position: relative;
-  top: 20%;
-  margin: auto;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+
   width: 275px;
   text-align: center;
 }
@@ -162,9 +164,5 @@ body {
   }
   .card__cancelbutton {
     margin-bottom: 30px;
-  }
-
-  .attribution {
-    top: 20%;
   }
 }
