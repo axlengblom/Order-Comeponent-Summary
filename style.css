@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+  text-align: center;
+  width: 325px;
+  margin: auto;
+  border-radius: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card__heroill {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 325px;
+}
+
+.card__heading {
+  margin: 20px auto 10px auto;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.card__text {
+  color: hsl(224, 23%, 55%);
+  margin: 20px auto;
+  width: 275px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card__cart {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  width: 275px;
+  margin: 20px auto;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.card__planname {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 4px;
+}
+
+.card__planprice {
+  color: hsl(224, 23%, 55%);
+}
+
+.card__changebutton {
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.card__changebutton:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.card__proceedbutton {
+  width: 275px;
+  margin: 20px auto 10px auto;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 16px 12px hsl(225, 100%, 94%);
+}
+.card__proceedbutton:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.card__cancelbutton {
+  width: 275px;
+  margin: 20px auto;
+  padding: 0px 10px 10px 10px;
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #ffffff;
+  border: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.card__cancelbutton:hover {
+  color: black;
+}
+
+.attribution {
+  position: relative;
+  top: 20%;
+  margin: auto;
+  width: 275px;
+  text-align: center;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+  .card {
+    width: 400px;
+  }
+
+  .card__heroill {
+    width: 400px;
+  }
+
+  .card__text {
+    width: 350px;
+  }
+
+  .card__cart {
+    width: 325px;
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .card__planimg {
+    float: left;
+    margin: 20px;
+  }
+
+  .card__plandetails {
+    float: left;
+    margin: 20px 5px;
+  }
+
+  .card__planname {
+    font-size: 15px;
+  }
+  .card__changebutton {
+    float: right;
+    margin: 34px 20px;
+  }
+
+  .card__proceedbutton {
+    width: 325px;
+  }
+  .card__cancelbutton {
+    margin-bottom: 30px;
+  }
+
+  .attribution {
+    top: 20%;
+  }
+}
