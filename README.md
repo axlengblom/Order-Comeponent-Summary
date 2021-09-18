@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ordert-summary-component-odeVSlozI)
-- Live Site URL: [Add live site URL here](https://axlengblom.github.io/Order-Component-Summary/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ordert-summary-component-odeVSlozI)
+- Live Site URL: [Live Site](https://axlengblom.github.io/Order-Component-Summary/)
 
 ## My process
 
